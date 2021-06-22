@@ -1,3 +1,3 @@
-export function concatenate(strings: string[]): string {
-    return strings.join(" ");
+export function concatenate(strings: string[], seperator: string): string {
+    return strings.join(seperator);
 }
